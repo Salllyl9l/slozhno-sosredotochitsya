@@ -1,11 +1,12 @@
 .page {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   width: 100%;
   min-height: 100vh;
   --transition-duration: 0.25s;
   background: var(--background-image) no-repeat top center,
     var(--background-color);
   background-size: auto 768px;
-  background-attachment: fixed;
   color: var(--main-text-color);
   transition-duration: var(--transition-duration);
 }
