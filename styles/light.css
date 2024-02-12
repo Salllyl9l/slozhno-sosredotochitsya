@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 /*
   Специально для светлой темы при наличии класса.
   Здесь окажутся стили, которые нужно переопределить принудительно,
@@ -16,11 +18,10 @@
   --section-title-color: var(--main-text-color);
   --border-color: var(--title-shadow);
   --corners-color: var(--main-text-color);
-  --text-shadow: var(--title-color);
+  --link-shadow: var(--title-color);
   --rec-color: var(--background-color);
 }
 
 .page.theme_light .header__rec {
   display: none;
 }
-
