@@ -1,5 +1,3 @@
-@charset "UTF-8";
-
 .page {
   --transition-duration: 0.25s;
   background: var(--background-image) no-repeat top center,
