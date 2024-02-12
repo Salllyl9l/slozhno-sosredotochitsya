@@ -1,4 +1,6 @@
 .page {
+  width: 100%;
+  min-height: 100vh;
   --transition-duration: 0.25s;
   background: var(--background-image) no-repeat top center,
     var(--background-color);
