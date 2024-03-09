@@ -1,27 +1,45 @@
-@charset "UTF-8";
-
 /*
   Специально для светлой темы при наличии класса.
   Здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
 
-.page.theme_light {
-  --main-text-color: #353430;
-  --title-color: #ffc2e6;
-  --title-shadow: #ff0070;
-  --title-decor: #ff8dcb;
-  --hover-color: 1px solid rgba(50, 49, 45, 0.4);
-  --background-color: #fff1f7;
-  --background-image: url(../images/cover-image-light.png);
-  --article-title-color: var(--main-text-color);
-  --section-title-color: var(--main-text-color);
-  --border-color: var(--title-shadow);
-  --corners-color: var(--main-text-color);
-  --link-shadow: var(--title-color);
-  --rec-color: var(--background-color);
+@media (prefers-color-scheme: light) {
+  :root {
+    --header-menu-color: #353430;
+    --cover-image: url(../images/cover-image-light.png);
+    --header-decoration-color: #353430;
+    --header-menu-hover-color: rgba(50, 49, 45, 0.4);
+    --decoration-display: none;
+    --title-color: #FFC2E6;
+    --header-text-color: #353430;
+    --header-text-bg: #FF8DCB;
+    --background-color: #FFF1F7;
+    --topic-color: #353430;
+    --card-title: #353430;
+    --card-title-bg: #FF8DCB;
+    --card-text-color: #353430;
+    --link-shadow-color: #F1B2CE;
+    --link-focus-color: #353430;
+    --link-hover-color: #353430;
+  }
 }
 
-.page.theme_light .header__rec {
-  display: none;
+.page.theme_light {
+  --header-menu-color: #353430;
+  --cover-image: url(../images/cover-image-light.png);
+  --header-decoration-color: #353430;
+  --header-menu-hover-color: rgba(50, 49, 45, 0.4);
+  --decoration-display: none;
+  --title-color: #FFC2E6;
+  --header-text-color: #353430;
+  --header-text-bg: #FF8DCB;
+  --background-color: #FFF1F7;
+  --topic-color: #353430;
+  --card-title: #353430;
+  --card-title-bg: #FF8DCB;
+  --card-text-color: #353430;
+  --link-shadow-color: #F1B2CE;
+  --link-focus-color: #353430;
+  --link-hover-color: #353430;
 }
