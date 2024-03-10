@@ -5,7 +5,7 @@
 */
 
 .page.theme_dark {
-  --main-font: 'IBM Plex mono', monospace;
+  --main-font: 'IBM Plex mono';
   --accent-color: #FF0070;
   --header-menu-color: #FF0070;
   --cover-image: url(../images/cover-image-dark.png);
